@@ -4,14 +4,16 @@
 
 Cerrar la versión 0.1: implementación, pruebas y entrega en GitHub Pages. No abrir un segundo objetivo antes de cerrar este.
 
-## Implementado localmente
+## Hecho confirmado
 
-Catálogo de 72 títulos / 12 categorías, ficha, estados, siete canales, Markdown persistente, imágenes embebidas, filtros, dashboard, importación JSON/CSV, exportaciones y PDF. Ver evidencia y limitaciones en `docs/PRUEBAS.md`.
+Catálogo de 72 títulos / 12 categorías, ficha, estados, siete canales, Markdown persistente, imágenes embebidas, filtros, dashboard, importación JSON/CSV, exportaciones y generación de PDF. Ver evidencia y limitaciones en `docs/PRUEBAS.md`.
+
+Repositorio público `rhynocerus/control-editorial-riw` creado por el titular y acceso de escritura confirmado. Código subido mediante el conector en la rama `feat/v0.1`. PR #1 abierta como borrador: https://github.com/rhynocerus/control-editorial-riw/pull/1
 
 ## Pendiente del cierre 0.1
 
-- Crear repositorio específico en rhynocerus y confirmar acceso del conector.
-- Publicar rama feat/v0.1, abrir PR, comprobar CI, fusionar y cerrar objetivo.
+- Completar las comprobaciones manuales de PDF y reinicio del navegador.
+- Comprobar CI, fusionar la PR #1 y cerrar objetivo.
 - Configurar Pages, verificar despliegue y URL pública.
 - Revisar la propuesta de licencia.
 

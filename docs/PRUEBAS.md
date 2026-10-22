@@ -54,3 +54,7 @@ Fecha: 21 de octubre de 2026. Entorno local de desarrollo; no equivale a una com
 El catálogo distribuido incluye solo títulos/categorías, estados conservadores y notas editoriales de procedencia. No incluye los datos completos de Todoist, correos, asignaciones, secretos ni los archivos de pruebas manuales. Los archivos locales de copias de prueba, capturas, node_modules y metadatos de acceso quedan fuera de la entrega del código. Los cuerpos y las imágenes originales de artículos no se han recuperado ni inventado.
 
 No declarar cerrado el objetivo v0.1 hasta completar las comprobaciones pendientes y verificar la URL publicada.
+
+## Continuación del 22 de octubre de 2026
+
+Repositorio público confirmado y código publicado mediante el conector en `feat/v0.1`, commit `4baaf25d6f13799403548133380b98163c860420`. PR #1 abierta en borrador: https://github.com/rhynocerus/control-editorial-riw/pull/1. GitHub Actions ha iniciado la ejecución 39739194389. El resultado se registrará cuando termine. Estas evidencias sustituyen el estado anterior de Git remoto pendiente; Pages continúa sin publicar.
