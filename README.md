@@ -4,7 +4,7 @@ Mesa editorial local de **RHYNUS Interactive Works** para el Cuaderno Blue Team.
 
 ## Funciones
 
-- 72 títulos reales recuperados de Todoist, organizados en 12 categorías de seis artículos.
+- Seis fichas ficticias de demostración para artículos, vídeo, pódcast, formación y comunicación.
 - Dashboard, buscador por título/texto/notas/ID, filtros por categoría, estado y canal social.
 - Cuatro estados exclusivos: Borrador, Revisado, Autorizado y Publicado. Fechas manuales, nunca inferidas al cambiar estado.
 - Siete canales independientes: LinkedIn, Facebook, X, Threads, Instagram, YouTube y Reddit. ON, OFF y No aplica; enlaces en el panel de detalles.
@@ -25,7 +25,9 @@ Mesa editorial local de **RHYNUS Interactive Works** para el Cuaderno Blue Team.
 
 **Los datos son locales y no se sincronizan entre navegadores, perfiles o dispositivos.** En un equipo distinto, restaura manualmente el JSON. Los datos no se publican en GitHub con tus ediciones. Borrar los datos del sitio, el modo privado o la falta de espacio pueden hacerlos inaccesibles. Mantén copias externas. Abre una sola pestaña de edición.
 
-El catálogo inicial contiene títulos, categorías y notas de procedencia, no los cuerpos ni las imágenes de los 72 artículos. Solo «Inventario de dispositivos: no puedes proteger lo que desconoces» comienza en Publicado por la evidencia aportada. Las otras 71 fichas comienzan en Borrador, con publicación por comprobar. Redes OFF y fechas vacías. El estado inicial no constituye una auditoría del sitio publicado.
+El catálogo distribuido contiene exclusivamente ejemplos ficticios, todos en Borrador, sin fechas ni enlaces de publicaciones. No incluye el catálogo privado del titular. Los registros propios se incorporan mediante importación JSON/CSV y permanecen en ese navegador.
+
+Actualizar el programa no elimina los registros ya guardados en IndexedDB. Antes de instalar, cambiar de dirección o sustituir datos, exporta tu JSON completo. Una instalación en otro equipo empieza con los ejemplos salvo que importes tu respaldo. El paquete `.deb` todavía no está disponible.
 
 ## Aplicaciones en otros proyectos
 

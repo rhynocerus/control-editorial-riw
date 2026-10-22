@@ -6,7 +6,7 @@ Cerrar la versión 0.1: implementación, pruebas y entrega en GitHub Pages. No a
 
 ## Hecho confirmado
 
-Catálogo de 72 títulos / 12 categorías, ficha, estados, siete canales, Markdown persistente, imágenes embebidas, filtros, dashboard, importación JSON/CSV, exportaciones y generación de PDF. Ver evidencia y limitaciones en `docs/PRUEBAS.md`.
+Catálogo público de seis ejemplos ficticios (el catálogo personal queda fuera de la distribución), ficha, estados, siete canales, Markdown persistente, imágenes embebidas, filtros, dashboard, importación JSON/CSV, exportaciones y generación de PDF. Ver evidencia y limitaciones en `docs/PRUEBAS.md`.
 
 Repositorio público `rhynocerus/control-editorial-riw` creado por el titular y acceso de escritura confirmado. Código subido mediante el conector en la rama `feat/v0.1`. PR #1 abierta como borrador: https://github.com/rhynocerus/control-editorial-riw/pull/1
 
@@ -33,3 +33,7 @@ Documentar la reutilización del catálogo para proyectos afines. Un selector de
 - Historial de revisiones y versiones de artículos.
 - Métricas de publicaciones y campañas.
 - Integración con APIs de redes sociales.
+
+## Cambio de privacidad · 22 de octubre de 2026
+
+Por solicitud del titular, la distribución se limita a ejemplos ficticios. Pendiente retirar el catálogo anterior del historial remoto y sustituir cualquier paquete anterior que lo incluya. No se declara eliminada su exposición histórica. No hay paquete `.deb` publicado por este proyecto.

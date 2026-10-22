@@ -2,9 +2,7 @@
 
 ## Origen del catálogo
 
-Lectura puntual del proyecto Todoist **CUADERNO BLUE TEAM RIW — CHECKLIST EDITORIAL**, el 21 de octubre de 2026. Se recuperaron las 12 secciones, 71 tareas activas y una tarea completada. Los códigos editoriales `01.1` a `12.6` proporcionan los IDs estables `riw-01.1` a `riw-12.6`. No se publican IDs internos de cuentas/proyectos de Todoist, correos ni asignaciones.
-
-La evidencia del artículo Inventario se conserva como nota: tarea completada en Todoist tras su revisión según indicación del titular, con marca temporal de completado. Esa marca no se utiliza como fecha editorial. No se han recuperado el texto ni la imagen originales del artículo. No se presume que otros artículos estén publicados.
+El catálogo público contiene seis ejemplos completamente ficticios con identificadores `demo-001` a `demo-006`. Todos comienzan en Borrador, con fechas, imágenes y URLs vacías y canales sociales OFF. No se distribuye el catálogo privado del titular. Importar un respaldo personal no lo envía a GitHub.
 
 ## Ficha
 

@@ -15,24 +15,17 @@ import { openDB, read, write } from "../src/storage";
 import { makePDF } from "../src/pdf";
 const data = () => validate(structuredClone(seed));
 describe("Catálogo y respaldo", () => {
-  it("72 identificadores únicos y 12 categorías con seis fichas", () => {
+  it("distribuye seis ejemplos ficticios con identificadores únicos", () => {
     const a = data();
-    expect(a).toHaveLength(72);
-    expect(new Set(a.map((a) => a.id)).size).toBe(72);
-    const c = [...new Set(a.map((a) => a.category))];
-    expect(c).toHaveLength(12);
-    c.forEach((c) => expect(a.filter((a) => a.category === c)).toHaveLength(6));
-  });
-  it("solo el ejemplo tiene estado publicado, con fechas vacías y redes OFF", () => {
-    const a = data().filter((a) => a.status === "Publicado");
-    expect(a).toHaveLength(1);
-    expect(a[0].title).toBe(
-      "Inventario de dispositivos: no puedes proteger lo que desconoces",
-    );
-    expect(a[0].publishedAt).toBe("");
-    expect(a[0].reviewedAt).toBe("");
-    expect(a[0].authorizedAt).toBe("");
-    channels.forEach((c) => expect(a[0].social[c].state).toBe("OFF"));
+    expect(a).toHaveLength(6);
+    expect(new Set(a.map(a => a.id)).size).toBe(6);
+    a.forEach(a => {
+      expect(a.id).toMatch(/^demo-/);
+      expect(a.notes).toContain("FICTICIOS");
+      expect(a.status).toBe("Borrador");
+      expect([a.url, a.reviewedAt, a.authorizedAt, a.publishedAt]).toEqual(["", "", "", ""]);
+      channels.forEach(c => expect(a.social[c]).toEqual({state: "OFF", url: ""}));
+    });
   });
   it("restaura exactamente texto largo, imagen, fechas y siete canales", () => {
     const a = data();
@@ -64,7 +57,7 @@ describe("Catálogo y respaldo", () => {
     const a = data();
     const b = structuredClone(a[0]);
     b.markdown = "Actualizado";
-    expect(merge(a, [b])).toHaveLength(72);
+    expect(merge(a, [b])).toHaveLength(6);
     expect(merge(a, [b])[0].markdown).toBe("Actualizado");
   });
   it("rechaza estados, fechas, imágenes y canales inválidos", () => {
@@ -95,7 +88,8 @@ describe("Catálogo y respaldo", () => {
     }
   });
   it("genera PDF real paginado con el catálogo", () => {
-    const p = makePDF(data());
+    const rows = Array.from({length: 72}, (_, i) => ({...data()[0], id: `test-${i}`}));
+    const p = makePDF(rows);
     expect(p.getNumberOfPages()).toBeGreaterThan(1);
     expect(p.output()).toContain("%PDF");
     expect(p.output()).toContain("CONTROL EDITORIAL RIW");

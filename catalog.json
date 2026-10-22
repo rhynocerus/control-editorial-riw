@@ -1,1586 +1,260 @@
 [
   {
-    "id": "riw-01.1",
-    "title": "SOC para pequeñas empresas: qué vigilar sin tener un centro de seguridad propio",
-    "category": "01 · SOC y operaciones defensivas",
+    "id": "demo-001",
+    "title": "Artículo de demostración",
+    "category": "Ejemplos · Artículos",
     "status": "Borrador",
-    "markdown": "",
+    "markdown": "# Ejemplo ficticio\n\nSustituye este texto por tu propio contenido. No representa un proyecto ni una publicación real.",
     "image": "",
     "url": "",
     "reviewedAt": "",
     "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-01.2",
-    "title": "Cinco alertas que una pyme nunca debería ignorar",
-    "category": "01 · SOC y operaciones defensivas",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-01.3",
-    "title": "Qué hace un analista SOC L1 durante una jornada",
-    "category": "01 · SOC y operaciones defensivas",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-01.4",
-    "title": "Triage de phishing: del correo sospechoso al ticket",
-    "category": "01 · SOC y operaciones defensivas",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-01.5",
-    "title": "Cómo reducir falsos positivos sin perder visibilidad",
-    "category": "01 · SOC y operaciones defensivas",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-01.6",
-    "title": "Playbooks SOC: quién decide, quién actúa y qué se documenta",
-    "category": "01 · SOC y operaciones defensivas",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-02.1",
-    "title": "Wazuh para una pyme: arquitectura mínima y límites",
-    "category": "02 · SIEM y gestión de registros",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-02.2",
-    "title": "Qué registros conservar en Linux y Windows",
-    "category": "02 · SIEM y gestión de registros",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-02.3",
-    "title": "De auth.log a una regla de correlación",
-    "category": "02 · SIEM y gestión de registros",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-02.4",
-    "title": "Sysmon y eventos Windows: primeros pasos",
-    "category": "02 · SIEM y gestión de registros",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-02.5",
-    "title": "Dashboards SOC: métricas realmente útiles",
-    "category": "02 · SIEM y gestión de registros",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-02.6",
-    "title": "Retención, integridad y privacidad de logs",
-    "category": "02 · SIEM y gestión de registros",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-03.1",
-    "title": "MITRE ATT&CK explicado con un incidente ficticio",
-    "category": "03 · Detección e inteligencia de amenazas",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-03.2",
-    "title": "Reglas Sigma: detectar patrones y validar resultados",
-    "category": "03 · Detección e inteligencia de amenazas",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-03.3",
-    "title": "Detección de movimientos laterales en una red pequeña",
-    "category": "03 · Detección e inteligencia de amenazas",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-03.4",
-    "title": "Threat hunting: formular una hipótesis verificable",
-    "category": "03 · Detección e inteligencia de amenazas",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-03.5",
-    "title": "IOC frente a TTP: qué investigar y qué no asumir",
-    "category": "03 · Detección e inteligencia de amenazas",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-03.6",
-    "title": "YARA: introducción al análisis defensivo de archivos",
-    "category": "03 · Detección e inteligencia de amenazas",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-04.1",
-    "title": "Qué revela Internet sobre tu empresa sin que lo sepas",
-    "category": "04 · OSINT y exposición pública",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-04.2",
-    "title": "Cómo revisar la exposición pública de un dominio propio",
-    "category": "04 · OSINT y exposición pública",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-04.3",
-    "title": "DNS, SPF, DKIM y DMARC: señales de protección del correo",
-    "category": "04 · OSINT y exposición pública",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-04.4",
-    "title": "Suplantación de dominios y protección de marca",
-    "category": "04 · OSINT y exposición pública",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-04.5",
-    "title": "Metadatos en documentos públicos: riesgos y prevención",
-    "category": "04 · OSINT y exposición pública",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-04.6",
-    "title": "OSINT ético: informe de exposición y recomendaciones",
-    "category": "04 · OSINT y exposición pública",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-05.1",
-    "title": "Inventario de dispositivos: no puedes proteger lo que desconoces",
-    "category": "05 · Redes, monitorización y perímetro",
-    "status": "Publicado",
-    "markdown": "",
-    "image": "",
-    "url": "https://rhynus-cuaderno-blue-team.rhynus.chatgpt.site/inventario-dispositivos/",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Evidencia: tarea original marcada como completada en Todoist tras su revisión, según indicación del titular. Completada en Todoist: 2026-10-21T14:34:13.188Z. Esta fecha no acredita la fecha de publicación.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-05.2",
-    "title": "Wireshark: analizar tráfico sospechoso sin inventar conclusiones",
-    "category": "05 · Redes, monitorización y perímetro",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-05.3",
-    "title": "Suricata: alertas IDS y sus límites",
-    "category": "05 · Redes, monitorización y perímetro",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-05.4",
-    "title": "Zeek: reconstrucción de actividad desde metadatos",
-    "category": "05 · Redes, monitorización y perímetro",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-05.5",
-    "title": "DNS anómalo: cómo investigar señales de riesgo",
-    "category": "05 · Redes, monitorización y perímetro",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-05.6",
-    "title": "Segmentación de redes y Wi-Fi de invitados en pymes",
-    "category": "05 · Redes, monitorización y perímetro",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-06.1",
-    "title": "Auditoría básica de seguridad de Linux Mint o Ubuntu",
-    "category": "06 · Hardening Linux y Windows",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-06.2",
-    "title": "UFW: reglas, comprobaciones y errores habituales",
-    "category": "06 · Hardening Linux y Windows",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-06.3",
-    "title": "AIDE: detección de cambios de integridad de archivos",
-    "category": "06 · Hardening Linux y Windows",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-06.4",
-    "title": "Endurecimiento básico de Windows para pequeñas empresas",
-    "category": "06 · Hardening Linux y Windows",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-06.5",
-    "title": "Actualizaciones y gestión de vulnerabilidades en Linux",
-    "category": "06 · Hardening Linux y Windows",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-06.6",
-    "title": "SSH seguro: claves, permisos y monitorización",
-    "category": "06 · Hardening Linux y Windows",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-07.1",
-    "title": "Mi empresa ha sufrido un incidente: primeros 30 minutos",
-    "category": "07 · Incidentes, recuperación y DFIR",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-07.2",
-    "title": "Ransomware: preparación y decisiones iniciales",
-    "category": "07 · Incidentes, recuperación y DFIR",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-07.3",
-    "title": "Cómo construir una cronología forense reproducible",
-    "category": "07 · Incidentes, recuperación y DFIR",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-07.4",
-    "title": "Cadena de custodia digital: qué es y qué no garantiza",
-    "category": "07 · Incidentes, recuperación y DFIR",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-07.5",
-    "title": "Backups 3-2-1 y prueba real de restauración",
-    "category": "07 · Incidentes, recuperación y DFIR",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-07.6",
-    "title": "Lecciones aprendidas y mejora de controles tras un incidente",
-    "category": "07 · Incidentes, recuperación y DFIR",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-08.1",
-    "title": "MFA: qué protege y por qué no elimina todo el riesgo",
-    "category": "08 · Identidad, correo y cloud",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-08.2",
-    "title": "Permisos mínimos: cuentas, roles y accesos de terceros",
-    "category": "08 · Identidad, correo y cloud",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-08.3",
-    "title": "Fraude de correo empresarial (BEC): señales y prevención",
-    "category": "08 · Identidad, correo y cloud",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-08.4",
-    "title": "Microsoft 365: registro de accesos y actividades sospechosas",
-    "category": "08 · Identidad, correo y cloud",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-08.5",
-    "title": "Google Workspace: controles básicos de seguridad",
-    "category": "08 · Identidad, correo y cloud",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-08.6",
-    "title": "Acceso condicional y Zero Trust para organizaciones pequeñas",
-    "category": "08 · Identidad, correo y cloud",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-09.1",
-    "title": "Checklist de seguridad para una web empresarial",
-    "category": "09 · Seguridad web, API y desarrollo seguro",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-09.2",
-    "title": "API y autorización por objeto: prevenir BOLA/IDOR",
-    "category": "09 · Seguridad web, API y desarrollo seguro",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-09.3",
-    "title": "Dependencias vulnerables y auditoría con OSV",
-    "category": "09 · Seguridad web, API y desarrollo seguro",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-09.4",
-    "title": "Secretos y tokens: cómo evitar filtraciones en GitHub",
-    "category": "09 · Seguridad web, API y desarrollo seguro",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-09.5",
-    "title": "Cabeceras HTTP de seguridad: qué aportan y qué no",
-    "category": "09 · Seguridad web, API y desarrollo seguro",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-09.6",
-    "title": "DevSecOps: pruebas de seguridad en CI/CD",
-    "category": "09 · Seguridad web, API y desarrollo seguro",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-10.1",
-    "title": "Python para transformar logs en informes comprensibles",
-    "category": "10 · Python, automatización e IA defensiva",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-10.2",
-    "title": "Automatizar una revisión defensiva sin bloquear sistemas",
-    "category": "10 · Python, automatización e IA defensiva",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-10.3",
-    "title": "SOAR: cuándo automatizar y cuándo exigir supervisión",
-    "category": "10 · Python, automatización e IA defensiva",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-10.4",
-    "title": "IA para resumir alertas: riesgos de datos y errores",
-    "category": "10 · Python, automatización e IA defensiva",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-10.5",
-    "title": "Uso seguro de IA generativa en pequeñas empresas",
-    "category": "10 · Python, automatización e IA defensiva",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-10.6",
-    "title": "Detección como código: versionar, probar y revisar reglas",
-    "category": "10 · Python, automatización e IA defensiva",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-11.1",
-    "title": "Diagnóstico inicial de ciberseguridad: qué revisar primero",
-    "category": "11 · Ciberseguridad para clientes y pymes",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-11.2",
-    "title": "Diez errores de seguridad que cuestan dinero a una pyme",
-    "category": "11 · Ciberseguridad para clientes y pymes",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-11.3",
-    "title": "Cómo priorizar vulnerabilidades según el riesgo real",
-    "category": "11 · Ciberseguridad para clientes y pymes",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-11.4",
-    "title": "Cuánto cuesta un incidente: factores que debe considerar una pyme",
-    "category": "11 · Ciberseguridad para clientes y pymes",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-11.5",
-    "title": "Cómo preparar una auditoría técnica y qué entregables esperar",
-    "category": "11 · Ciberseguridad para clientes y pymes",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-11.6",
-    "title": "Plan de seguridad de 30 días para un negocio pequeño",
-    "category": "11 · Ciberseguridad para clientes y pymes",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-12.1",
-    "title": "RGPD y registros de seguridad: minimizar sin perder trazabilidad",
-    "category": "12 · Privacidad, riesgo y gobierno",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-12.2",
-    "title": "NIS2 en España: cómo comprobar si afecta a una organización",
-    "category": "12 · Privacidad, riesgo y gobierno",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-12.3",
-    "title": "Esquema Nacional de Seguridad: conceptos y aplicabilidad",
-    "category": "12 · Privacidad, riesgo y gobierno",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
-    }
-  },
-  {
-    "id": "riw-12.4",
-    "title": "ISO 27001 frente a controles técnicos cotidianos",
-    "category": "12 · Privacidad, riesgo y gobierno",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
+    "publishedAt": "",
+    "notes": "DATOS FICTICIOS DE DEMOSTRACIÓN. Sin revisión ni publicación acreditadas.",
+    "social": {
+      "LinkedIn": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Facebook": {
+        "state": "OFF",
+        "url": ""
+      },
+      "X": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Threads": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Instagram": {
+        "state": "OFF",
+        "url": ""
+      },
+      "YouTube": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Reddit": {
+        "state": "OFF",
+        "url": ""
+      }
     }
   },
   {
-    "id": "riw-12.5",
-    "title": "Gestión de proveedores y accesos externos",
-    "category": "12 · Privacidad, riesgo y gobierno",
+    "id": "demo-002",
+    "title": "Guía de demostración",
+    "category": "Ejemplos · Artículos",
     "status": "Borrador",
-    "markdown": "",
+    "markdown": "# Ejemplo ficticio\n\nSustituye este texto por tu propio contenido. No representa un proyecto ni una publicación real.",
     "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
+    "url": "",
+    "reviewedAt": "",
+    "authorizedAt": "",
+    "publishedAt": "",
+    "notes": "DATOS FICTICIOS DE DEMOSTRACIÓN. Sin revisión ni publicación acreditadas.",
+    "social": {
+      "LinkedIn": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Facebook": {
+        "state": "OFF",
+        "url": ""
+      },
+      "X": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Threads": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Instagram": {
+        "state": "OFF",
+        "url": ""
+      },
+      "YouTube": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Reddit": {
+        "state": "OFF",
+        "url": ""
+      }
     }
   },
   {
-    "id": "riw-12.6",
-    "title": "Cómo redactar una política de respuesta a incidentes útil",
-    "category": "12 · Privacidad, riesgo y gobierno",
-    "status": "Borrador",
-    "markdown": "",
-    "image": "",
-    "url": "",
-    "reviewedAt": "",
-    "authorizedAt": "",
-    "publishedAt": "",
-    "notes": "Catálogo propuesto de Todoist. Estado inicial Borrador; revisión y publicación por comprobar.",
-    "social": {
-      "LinkedIn": { "state": "OFF", "url": "" },
-      "Facebook": { "state": "OFF", "url": "" },
-      "X": { "state": "OFF", "url": "" },
-      "Threads": { "state": "OFF", "url": "" },
-      "Instagram": { "state": "OFF", "url": "" },
-      "YouTube": { "state": "OFF", "url": "" },
-      "Reddit": { "state": "OFF", "url": "" }
+    "id": "demo-003",
+    "title": "Vídeo de demostración",
+    "category": "Ejemplos · Audiovisual",
+    "status": "Borrador",
+    "markdown": "# Ejemplo ficticio\n\nSustituye este texto por tu propio contenido. No representa un proyecto ni una publicación real.",
+    "image": "",
+    "url": "",
+    "reviewedAt": "",
+    "authorizedAt": "",
+    "publishedAt": "",
+    "notes": "DATOS FICTICIOS DE DEMOSTRACIÓN. Sin revisión ni publicación acreditadas.",
+    "social": {
+      "LinkedIn": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Facebook": {
+        "state": "OFF",
+        "url": ""
+      },
+      "X": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Threads": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Instagram": {
+        "state": "OFF",
+        "url": ""
+      },
+      "YouTube": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Reddit": {
+        "state": "OFF",
+        "url": ""
+      }
+    }
+  },
+  {
+    "id": "demo-004",
+    "title": "Pódcast de demostración",
+    "category": "Ejemplos · Audiovisual",
+    "status": "Borrador",
+    "markdown": "# Ejemplo ficticio\n\nSustituye este texto por tu propio contenido. No representa un proyecto ni una publicación real.",
+    "image": "",
+    "url": "",
+    "reviewedAt": "",
+    "authorizedAt": "",
+    "publishedAt": "",
+    "notes": "DATOS FICTICIOS DE DEMOSTRACIÓN. Sin revisión ni publicación acreditadas.",
+    "social": {
+      "LinkedIn": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Facebook": {
+        "state": "OFF",
+        "url": ""
+      },
+      "X": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Threads": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Instagram": {
+        "state": "OFF",
+        "url": ""
+      },
+      "YouTube": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Reddit": {
+        "state": "OFF",
+        "url": ""
+      }
+    }
+  },
+  {
+    "id": "demo-005",
+    "title": "Recurso educativo de demostración",
+    "category": "Ejemplos · Formación",
+    "status": "Borrador",
+    "markdown": "# Ejemplo ficticio\n\nSustituye este texto por tu propio contenido. No representa un proyecto ni una publicación real.",
+    "image": "",
+    "url": "",
+    "reviewedAt": "",
+    "authorizedAt": "",
+    "publishedAt": "",
+    "notes": "DATOS FICTICIOS DE DEMOSTRACIÓN. Sin revisión ni publicación acreditadas.",
+    "social": {
+      "LinkedIn": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Facebook": {
+        "state": "OFF",
+        "url": ""
+      },
+      "X": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Threads": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Instagram": {
+        "state": "OFF",
+        "url": ""
+      },
+      "YouTube": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Reddit": {
+        "state": "OFF",
+        "url": ""
+      }
+    }
+  },
+  {
+    "id": "demo-006",
+    "title": "Boletín de demostración",
+    "category": "Ejemplos · Comunicación",
+    "status": "Borrador",
+    "markdown": "# Ejemplo ficticio\n\nSustituye este texto por tu propio contenido. No representa un proyecto ni una publicación real.",
+    "image": "",
+    "url": "",
+    "reviewedAt": "",
+    "authorizedAt": "",
+    "publishedAt": "",
+    "notes": "DATOS FICTICIOS DE DEMOSTRACIÓN. Sin revisión ni publicación acreditadas.",
+    "social": {
+      "LinkedIn": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Facebook": {
+        "state": "OFF",
+        "url": ""
+      },
+      "X": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Threads": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Instagram": {
+        "state": "OFF",
+        "url": ""
+      },
+      "YouTube": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Reddit": {
+        "state": "OFF",
+        "url": ""
+      }
     }
   }
 ]
