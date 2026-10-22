@@ -27,6 +27,43 @@ Mesa editorial local de **RHYNUS Interactive Works** para el Cuaderno Blue Team.
 
 El catálogo inicial contiene títulos, categorías y notas de procedencia, no los cuerpos ni las imágenes de los 72 artículos. Solo «Inventario de dispositivos: no puedes proteger lo que desconoces» comienza en Publicado por la evidencia aportada. Las otras 71 fichas comienzan en Borrador, con publicación por comprobar. Redes OFF y fechas vacías. El estado inicial no constituye una auditoría del sitio publicado.
 
+## Aplicaciones en otros proyectos
+
+La misma ficha editorial puede servir para controlar contenidos de distintos proyectos afines. Estos son usos posibles del modelo actual, no módulos adicionales ya implementados:
+
+| Proyecto | Qué registrar en cada ficha | Uso de las categorías |
+| --- | --- | --- |
+| Cuadernos técnicos y blogs | Artículo, imagen, revisión, URL pública y distribución social | Áreas de conocimiento o secciones |
+| Divulgación y formación | Tutorial, guía o recurso educativo y sus publicaciones de difusión | Temas o bloques formativos |
+| Pódcast y vídeo | Guion o notas del episodio, miniatura y enlace al contenido publicado | Series o líneas temáticas |
+| Boletines y revistas digitales | Texto de una pieza, aprobación y enlace a su edición pública | Secciones editoriales |
+| Comunicación de asociaciones o iniciativas culturales | Comunicado, crónica o presentación de una actividad | Programas o ámbitos de actividad |
+| Portafolios y documentación pública | Presentación de un proyecto, ficha técnica y enlaces de difusión | Familias de proyectos |
+
+Los estados y los siete canales siguen siendo los definidos en esta versión. La aplicación registra la distribución; no publica automáticamente ni recoge métricas. El PDF resume el catálogo y no sustituye al respaldo JSON.
+
+## Preparar otro catálogo
+
+Puedes preparar otra lista de artículos mientras se completa la validación de v0.1. Basta con una tabla con **identificador estable, título exacto y categoría**. Añade estado, texto, enlaces y fechas solo cuando se conozcan. Una lista sencilla sirve como material de preparación; para importarla debe ajustarse al formato documentado en [Modelo de datos](docs/DATOS.md), preferiblemente partiendo de una exportación de la aplicación.
+
+- Usa identificadores distintos para cada proyecto, por ejemplo `proyecto-a-001` y `proyecto-b-001`. El ID identifica la ficha aunque cambie su título.
+- Exporta el catálogo actual a JSON antes de importar otro.
+- **Combinar** actualiza las fichas cuyo ID coincide y añade las nuevas; **sustituir** reemplaza el catálogo tras la confirmación.
+- La versión 0.1 mantiene un catálogo activo por origen y perfil del navegador. No incluye un selector de proyectos ni espacios independientes: organiza los proyectos mediante copias JSON identificadas y conserva una copia antes de cambiar.
+
+## Trabajar en varios dispositivos
+
+1. En el dispositivo de origen, espera al indicador de guardado y descarga el **JSON completo**.
+2. Transfiere ese archivo al dispositivo de destino mediante el medio que prefieras.
+3. Abre allí la aplicación, respalda cualquier contenido existente e importa el JSON. Comprueba el recuento y algunas fichas con texto e imágenes.
+4. Al terminar de editar, exporta una nueva copia para continuar en el siguiente dispositivo.
+
+Utiliza nombres con proyecto y fecha, por ejemplo `cuaderno-blue-team-2026-10-22.json`. Evita editar simultáneamente dos copias: no hay conciliación automática y una importación puede reemplazar cambios de fichas con el mismo ID.
+
+**GitHub conserva el código y el catálogo inicial que se incluyan en el repositorio; las ediciones realizadas en Firefox u otro navegador no se envían a GitHub.** Tampoco se transfieren automáticamente al abrir GitHub Pages. No subas respaldos con borradores o notas privadas a un repositorio público.
+
+Un paquete **`.deb` para Linux** es una posibilidad para una versión posterior, pendiente de diseño y pruebas. No está incluido en v0.1 y no implica sincronización entre equipos. Un ejecutable para Windows u otros formatos requerirían sus propios paquetes y validación.
+
 ## Desarrollo
 
 Requiere Node.js 22.12 o posterior.

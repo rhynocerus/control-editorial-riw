@@ -17,6 +17,12 @@ Repositorio público `rhynocerus/control-editorial-riw` creado por el titular y 
 - Configurar Pages, verificar despliegue y URL pública.
 - Revisar la propuesta de licencia.
 
+## Próximo objetivo propuesto tras cerrar v0.1
+
+Evaluar un paquete `.deb` para Linux que conserve la estructura de fichas y el intercambio manual mediante JSON. Interés solicitado por el titular; todavía sin implementación ni promesa de compatibilidad. Definir instalación, actualización, ubicación de datos y recuperación antes de distribuirlo.
+
+Documentar la reutilización del catálogo para proyectos afines. Un selector de proyectos, si se desea, requiere un objetivo posterior; v0.1 mantiene un catálogo activo.
+
 ## Backlog · no implementado
 
 - Sincronización y autenticación.
