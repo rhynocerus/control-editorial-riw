@@ -16,7 +16,11 @@ export const channels = [
 ] as const;
 export type Status = (typeof statuses)[number];
 export type Channel = (typeof channels)[number];
+export const wordpressStatuses = ["Pendiente", "Borrador", "Preparado", "Publicado"] as const;
+export type WordPress = { status: (typeof wordpressStatuses)[number]; url: string };
+export const emptyWordPress: WordPress = { status: "Pendiente", url: "" };
 export type Article = {
+  wordpress?: WordPress;
   id: string;
   title: string;
   category: string;
@@ -98,9 +102,15 @@ export function validate(input: unknown): Article[] {
         throw Error("Canal social inválido: " + c);
       social[c] = { state: s.state, url: s.url };
     }
+    if (raw.wordpress !== undefined && (
+      !raw.wordpress || typeof raw.wordpress !== "object" ||
+      !wordpressStatuses.includes(raw.wordpress.status) ||
+      typeof raw.wordpress.url !== "string" || !safeUrl(raw.wordpress.url)
+    )) throw Error("Estado o URL de WordPress inválido: " + raw.id);
     return Object.fromEntries([
       ...fields.filter((k) => k !== "social").map((k) => [k, raw[k]]),
       ["social", social],
+      ...(raw.wordpress === undefined ? [] : [["wordpress", { ...raw.wordpress }]]),
     ]) as Article;
   });
 }
@@ -108,7 +118,7 @@ export function backup(articles: Article[]) {
   return JSON.stringify(
     {
       format: "riw-editorial",
-      version: 1,
+      version: 2,
       exportedAt: new Date().toISOString(),
       articles,
     },
@@ -118,7 +128,7 @@ export function backup(articles: Article[]) {
 }
 export function restore(text: string) {
   const b = JSON.parse(text);
-  if (b.format !== "riw-editorial" || b.version !== 1)
+  if (b.format !== "riw-editorial" || ![1, 2].includes(b.version))
     throw Error("Formato o versión de respaldo no compatible.");
   return validate(b.articles);
 }
@@ -131,13 +141,13 @@ export function toCsv(a: Article[]) {
     Papa.unparse(
       a.map((x) =>
         Object.fromEntries(
-          fields.map((k) => [
+          [...fields.map((k) => [
             k,
             protect(k === "social" ? JSON.stringify(x[k]) : x[k]),
-          ]),
+          ]), ["wordpress", x.wordpress ? JSON.stringify(x.wordpress) : ""]],
         ),
       ),
-      { columns: [...fields], newline: "\r\n" },
+      { columns: [...fields, "wordpress"], newline: "\r\n" },
     )
   );
 }
@@ -153,13 +163,14 @@ export function fromCsv(text: string) {
       const x = Object.fromEntries(
         fields.map((k) => [k, unprotect(r[k] ?? "")]),
       );
-      return { ...x, social: JSON.parse(x.social) };
+      return { ...x, social: JSON.parse(x.social),
+        ...(r.wordpress ? { wordpress: JSON.parse(r.wordpress) } : {}) };
     }),
   );
 }
 export function merge(current: Article[], incoming: Article[]) {
   const map = new Map(current.map((a) => [a.id, a]));
-  for (const a of incoming) map.set(a.id, a);
+  for (const a of incoming) map.set(a.id, { ...map.get(a.id), ...a });
   return validate([...map.values()]);
 }
 export function download(name: string, content: BlobPart, type: string) {

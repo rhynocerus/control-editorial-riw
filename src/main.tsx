@@ -12,6 +12,9 @@ import {
 import seed from "../catalog.json";
 import {
   statuses,
+  wordpressStatuses,
+  emptyWordPress,
+  type WordPress,
   channels,
   validate,
   backup,
@@ -650,7 +653,7 @@ function App() {
                 ✕
               </button>
             </div>
-            <div className="state-row">
+            <div className="state-row" aria-label="Estado en ChatGPT Sites">
               {statuses.map((s) => (
                 <button
                   key={s}
@@ -674,7 +677,7 @@ function App() {
               Cambiar el estado no inventa fechas ni evidencias.
             </p>
             <nav className="tabs" aria-label="Paneles de ficha">
-              {["Ficha", "Texto completo", "Redes sociales"].map((t) => (
+              {["Ficha", "Texto completo", "Redes sociales", "WordPress"].map((t) => (
                 <button
                   key={t}
                   className={tab === t ? "active" : ""}
@@ -684,6 +687,36 @@ function App() {
                 </button>
               ))}
             </nav>
+            {tab === "WordPress" && (
+              <div className="form-grid">
+                <p className="wide muted">Seguimiento local. No publica ni crea borradores en WordPress.</p>
+                <label>
+                  Estado en WordPress
+                  <select
+                    value={(article.wordpress ?? emptyWordPress).status}
+                    onChange={(e) => update({ wordpress: {
+                      ...(article.wordpress ?? emptyWordPress),
+                      status: e.target.value as WordPress["status"],
+                    } })}
+                  >
+                    {wordpressStatuses.map((s) => <option key={s}>{s}</option>)}
+                  </select>
+                </label>
+                <label className="wide">
+                  URL en WordPress
+                  <ValidInput
+                    kind="url"
+                    value={(article.wordpress ?? emptyWordPress).url}
+                    onCommit={(url) => update({ wordpress: {
+                      ...(article.wordpress ?? emptyWordPress), url,
+                    } })}
+                  />
+                  {article.wordpress?.url && (
+                    <a href={article.wordpress.url} target="_blank" rel="noreferrer">Abrir en WordPress ↗</a>
+                  )}
+                </label>
+              </div>
+            )}
             {tab === "Ficha" && (
               <div className="form-grid">
                 <label>
@@ -705,7 +738,7 @@ function App() {
                   </select>
                 </label>
                 <label className="wide">
-                  URL pública
+                  URL pública en ChatGPT Sites
                   <ValidInput
                     kind="url"
                     value={article.url}
@@ -923,6 +956,7 @@ function App() {
                 className="primary"
                 onClick={() => {
                   try {
+                    download("riw-antes-importacion.json", backup(latest.current), "application/json");
                     persist(
                       mode === "replace"
                         ? imported
