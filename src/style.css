@@ -853,3 +853,7 @@ a {
     scroll-behavior: auto !important;
   }
 }
+
+.work-command { padding: 1rem; border-block: 1px solid #718096; }
+.work-command textarea { width: 100%; box-sizing: border-box; }
+.work-command summary { cursor: pointer; padding-block: .6rem; }
