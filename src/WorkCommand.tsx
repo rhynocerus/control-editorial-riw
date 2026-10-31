@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { type Article, commandFields, safeUrl } from './model';
 import { buildWorkCommand, collections } from './work-command';
+import { workModes, type WorkMode } from './work-mode';
 const labels = {collection:'Colección exacta', editorialOrder:'Orden editorial', focus:'Enfoque', destination:'URL del sitio de destino', authorizationScope:'Alcance y evidencia de autorización'};
 export function WorkCommand({article, update, disabled}: {article:Article; update:(patch:Partial<Article>)=>void; disabled:boolean}) {
+  const [mode,setMode]=useState<WorkMode>('prepare');
   const [message,setMessage]=useState('');
   const [manual,setManual]=useState('');
-  const command=buildWorkCommand(article);
+  const command=buildWorkCommand(article, mode);
   async function copy() {
     setMessage(''); setManual('');
     try {
@@ -18,6 +20,23 @@ export function WorkCommand({article, update, disabled}: {article:Article; updat
     }
   }
   return <section className="work-command" aria-label="Comando editorial Work">
+    <div className="work-mode-compact">
+      <span className="work-mode-title">Operación para Work:</span>
+      <label>
+        <input type="radio" name="work-mode" value="prepare"
+          disabled={disabled}
+          checked={mode === 'prepare'}
+          onChange={() => setMode('prepare')} />
+        Preparar
+      </label>
+      <label>
+        <input type="radio" name="work-mode" value="publish"
+          disabled={disabled}
+          checked={mode === 'publish'}
+          onChange={() => setMode('publish')} />
+        Publicar en Sites
+      </label>
+    </div>
     <button disabled={disabled} onClick={() => void copy()}>📋 Copiar súper comando Work</button>
     <p role="status">{message || (disabled ? 'Espera a que termine el guardado antes de copiar.' : 'Copiar no autoriza publicar ni cambia estados.')}</p>
     <details><summary>Completar contexto y revisar comando</summary>

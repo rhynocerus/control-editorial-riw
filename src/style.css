@@ -857,3 +857,27 @@ a {
 .work-command { padding: 1rem; border-block: 1px solid #718096; }
 .work-command textarea { width: 100%; box-sizing: border-box; }
 .work-command summary { cursor: pointer; padding-block: .6rem; }
+
+/* Selector compacto del Súper Comando Work */
+.work-mode-compact {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+.work-mode-compact .work-mode-title {
+  font-weight: 600;
+}
+.work-mode-compact label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.work-mode-compact input[type="radio"] {
+  margin: 0;
+  width: 15px;
+  height: 15px;
+}
