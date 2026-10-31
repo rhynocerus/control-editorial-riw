@@ -1,0 +1,260 @@
+[
+  {
+    "id": "demo-001",
+    "title": "Artículo de demostración",
+    "category": "Ejemplos · Artículos",
+    "status": "Borrador",
+    "markdown": "# Ejemplo ficticio\n\nSustituye este texto por tu propio contenido. No representa un proyecto ni una publicación real.",
+    "image": "",
+    "url": "",
+    "reviewedAt": "",
+    "authorizedAt": "",
+    "publishedAt": "",
+    "notes": "DATOS FICTICIOS DE DEMOSTRACIÓN. Sin revisión ni publicación acreditadas.",
+    "social": {
+      "LinkedIn": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Facebook": {
+        "state": "OFF",
+        "url": ""
+      },
+      "X": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Threads": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Instagram": {
+        "state": "OFF",
+        "url": ""
+      },
+      "YouTube": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Reddit": {
+        "state": "OFF",
+        "url": ""
+      }
+    }
+  },
+  {
+    "id": "demo-002",
+    "title": "Guía de demostración",
+    "category": "Ejemplos · Artículos",
+    "status": "Borrador",
+    "markdown": "# Ejemplo ficticio\n\nSustituye este texto por tu propio contenido. No representa un proyecto ni una publicación real.",
+    "image": "",
+    "url": "",
+    "reviewedAt": "",
+    "authorizedAt": "",
+    "publishedAt": "",
+    "notes": "DATOS FICTICIOS DE DEMOSTRACIÓN. Sin revisión ni publicación acreditadas.",
+    "social": {
+      "LinkedIn": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Facebook": {
+        "state": "OFF",
+        "url": ""
+      },
+      "X": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Threads": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Instagram": {
+        "state": "OFF",
+        "url": ""
+      },
+      "YouTube": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Reddit": {
+        "state": "OFF",
+        "url": ""
+      }
+    }
+  },
+  {
+    "id": "demo-003",
+    "title": "Vídeo de demostración",
+    "category": "Ejemplos · Audiovisual",
+    "status": "Borrador",
+    "markdown": "# Ejemplo ficticio\n\nSustituye este texto por tu propio contenido. No representa un proyecto ni una publicación real.",
+    "image": "",
+    "url": "",
+    "reviewedAt": "",
+    "authorizedAt": "",
+    "publishedAt": "",
+    "notes": "DATOS FICTICIOS DE DEMOSTRACIÓN. Sin revisión ni publicación acreditadas.",
+    "social": {
+      "LinkedIn": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Facebook": {
+        "state": "OFF",
+        "url": ""
+      },
+      "X": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Threads": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Instagram": {
+        "state": "OFF",
+        "url": ""
+      },
+      "YouTube": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Reddit": {
+        "state": "OFF",
+        "url": ""
+      }
+    }
+  },
+  {
+    "id": "demo-004",
+    "title": "Pódcast de demostración",
+    "category": "Ejemplos · Audiovisual",
+    "status": "Borrador",
+    "markdown": "# Ejemplo ficticio\n\nSustituye este texto por tu propio contenido. No representa un proyecto ni una publicación real.",
+    "image": "",
+    "url": "",
+    "reviewedAt": "",
+    "authorizedAt": "",
+    "publishedAt": "",
+    "notes": "DATOS FICTICIOS DE DEMOSTRACIÓN. Sin revisión ni publicación acreditadas.",
+    "social": {
+      "LinkedIn": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Facebook": {
+        "state": "OFF",
+        "url": ""
+      },
+      "X": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Threads": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Instagram": {
+        "state": "OFF",
+        "url": ""
+      },
+      "YouTube": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Reddit": {
+        "state": "OFF",
+        "url": ""
+      }
+    }
+  },
+  {
+    "id": "demo-005",
+    "title": "Recurso educativo de demostración",
+    "category": "Ejemplos · Formación",
+    "status": "Borrador",
+    "markdown": "# Ejemplo ficticio\n\nSustituye este texto por tu propio contenido. No representa un proyecto ni una publicación real.",
+    "image": "",
+    "url": "",
+    "reviewedAt": "",
+    "authorizedAt": "",
+    "publishedAt": "",
+    "notes": "DATOS FICTICIOS DE DEMOSTRACIÓN. Sin revisión ni publicación acreditadas.",
+    "social": {
+      "LinkedIn": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Facebook": {
+        "state": "OFF",
+        "url": ""
+      },
+      "X": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Threads": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Instagram": {
+        "state": "OFF",
+        "url": ""
+      },
+      "YouTube": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Reddit": {
+        "state": "OFF",
+        "url": ""
+      }
+    }
+  },
+  {
+    "id": "demo-006",
+    "title": "Boletín de demostración",
+    "category": "Ejemplos · Comunicación",
+    "status": "Borrador",
+    "markdown": "# Ejemplo ficticio\n\nSustituye este texto por tu propio contenido. No representa un proyecto ni una publicación real.",
+    "image": "",
+    "url": "",
+    "reviewedAt": "",
+    "authorizedAt": "",
+    "publishedAt": "",
+    "notes": "DATOS FICTICIOS DE DEMOSTRACIÓN. Sin revisión ni publicación acreditadas.",
+    "social": {
+      "LinkedIn": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Facebook": {
+        "state": "OFF",
+        "url": ""
+      },
+      "X": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Threads": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Instagram": {
+        "state": "OFF",
+        "url": ""
+      },
+      "YouTube": {
+        "state": "OFF",
+        "url": ""
+      },
+      "Reddit": {
+        "state": "OFF",
+        "url": ""
+      }
+    }
+  }
+]
