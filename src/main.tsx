@@ -29,6 +29,7 @@ import {
 } from "./model";
 import { openDB, read, write } from "./storage";
 import "./style.css";
+import { WorkCommand } from "./WorkCommand";
 const socialIcons: Partial<Record<Channel, { path: string }>> = {
   Facebook: siFacebook,
   X: siX,
@@ -471,7 +472,7 @@ function App() {
                 El próximo artículo empieza aquí<span>_</span>
               </h2>
               <p className="muted">
-                Organiza, revisa y conserva el contenido del Cuaderno Blue Team.
+                Organiza, revisa y conserva las colecciones editoriales RIW.
               </p>
             </div>
             <span className="version">v0.1 / LOCAL</span>
@@ -582,7 +583,7 @@ function App() {
                       <img src={a.image} alt="Miniatura editorial" />
                     ) : (
                       <div className="placeholder">
-                        <span>RIW / BLUE TEAM</span>
+                        <span>RIW / EDITORIAL</span>
                         <b>{a.id.replace("riw-", "")}</b>
                         <small>Sin imagen incorporada</small>
                       </div>
@@ -670,12 +671,13 @@ function App() {
                 {
                   Borrador: "Contenido en preparación.",
                   Revisado: "Contenido y recursos comprobados.",
-                  Autorizado: "Aprobado para publicación.",
+                  Autorizado: "Requiere comprobar el alcance concreto de la autorización.",
                   Publicado: "Artículo disponible públicamente.",
                 }[article.status]
               }{" "}
               Cambiar el estado no inventa fechas ni evidencias.
             </p>
+            <WorkCommand key={article.id} article={article} update={update} disabled={!!pending.current || failed.current} />
             <nav className="tabs" aria-label="Paneles de ficha">
               {["Ficha", "Texto completo", "Redes sociales", "WordPress"].map((t) => (
                 <button
@@ -770,7 +772,7 @@ function App() {
                       {l}
                       <input
                         type="date"
-                        value={article[k]}
+                        value={article[k] ?? ""}
                         onChange={(e) => update({ [k]: e.target.value })}
                       />
                     </label>
