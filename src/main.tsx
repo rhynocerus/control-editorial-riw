@@ -30,6 +30,12 @@ import {
 import { openDB, read, write } from "./storage";
 import "./style.css";
 import { WorkCommand } from "./WorkCommand";
+import {
+  createEditorialEvent,
+  editorialEventTypes,
+  editorialEventLabels,
+  formatEditorialEventDate,
+} from "./editorial-history";
 const socialIcons: Partial<Record<Channel, { path: string }>> = {
   Facebook: siFacebook,
   X: siX,
@@ -101,6 +107,8 @@ function App() {
     [channel, setChannel] = useState(""),
     [socialFilter, setSocialFilter] = useState("OFF"),
     [tab, setTab] = useState("Ficha"),
+    [eventType, setEventType] = useState("sent-to-work"),
+    [eventDetail, setEventDetail] = useState(""),
     [saved, setSaved] = useState("Abriendo almacenamiento…"),
     [error, setError] = useState(""),
     [imported, setImported] = useState<Article[] | null>(null),
@@ -575,6 +583,8 @@ function App() {
                   onClick={() => {
                     setSelected(a.id);
                     setTab("Ficha");
+                    setEventType("sent-to-work");
+                    setEventDetail("");
                   }}
                   aria-label={"Editar " + a.title}
                 >
@@ -679,7 +689,7 @@ function App() {
             </p>
             <WorkCommand key={article.id} article={article} update={update} disabled={!!pending.current || failed.current} />
             <nav className="tabs" aria-label="Paneles de ficha">
-              {["Ficha", "Texto completo", "Redes sociales", "WordPress"].map((t) => (
+              {["Ficha", "Texto completo", "Redes sociales", "WordPress", "Historial"].map((t) => (
                 <button
                   key={t}
                   className={tab === t ? "active" : ""}
@@ -897,6 +907,84 @@ function App() {
                   </div>
                 ))}
               </div>
+            )}
+            {tab === "Historial" && (
+              <section aria-label="Historial editorial">
+                <h3>Historial editorial</h3>
+                <form
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    const detail = eventDetail.trim();
+                    if (!article || !detail) return;
+                    const type = editorialEventTypes.find(
+                      (t) => t === eventType,
+                    );
+                    if (!type) return;
+                    const event = createEditorialEvent(type, detail);
+                    update({
+                      history: [...(article.history ?? []), event],
+                    });
+                    setEventDetail("");
+                  }}
+                >
+                  <label htmlFor="editorial-event-type">
+                    Tipo de acontecimiento
+                  </label>
+                  <select
+                    id="editorial-event-type"
+                    value={eventType}
+                    onChange={(e) => setEventType(e.target.value)}
+                  >
+                    {editorialEventTypes.map((type) => (
+                      <option key={type} value={type}>
+                        {editorialEventLabels[type]}
+                      </option>
+                    ))}
+                  </select>
+                  <label htmlFor="editorial-event-detail">
+                    Descripción del acontecimiento
+                  </label>
+                  <textarea
+                    id="editorial-event-detail"
+                    value={eventDetail}
+                    onChange={(e) => setEventDetail(e.target.value)}
+                    maxLength={2000}
+                    required
+                    placeholder="Describe qué ocurrió y dónde comprobarlo."
+                  />
+                  <button type="submit" disabled={!eventDetail.trim()}>
+                    Registrar acontecimiento
+                  </button>
+                  <p className="muted">
+                    Registro manual. La fecha indica cuándo se anotó,
+                    no necesariamente cuándo ocurrió el hecho.
+                    Registrar un acontecimiento no modifica estados,
+                    concede autorizaciones ni publica artículos.
+                  </p>
+                </form>
+                {!article.history?.length ? (
+                  <p className="muted">Sin acontecimientos registrados.</p>
+                ) : (
+                  <ol>
+                    {[...article.history]
+                      .sort((a, b) => b.at.localeCompare(a.at))
+                      .map((event) => (
+                        <li key={event.id}>
+                          <strong>{editorialEventLabels[event.type]}</strong>
+                          {" · "}
+                          <time dateTime={event.at}>
+                            {formatEditorialEventDate(event.at)}
+                          </time>
+                          {event.detail && <p>{event.detail}</p>}
+                        </li>
+                      ))}
+                  </ol>
+                )}
+                <p className="muted">
+                  Este historial es informativo. No modifica estados
+                  ni acredita por sí solo una publicación.
+                </p>
+              </section>
             )}
             <div className="editor-bottom">
               <span role="status">{saved}</span>

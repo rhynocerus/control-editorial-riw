@@ -1,4 +1,5 @@
 import Papa from "papaparse";
+import { editorialEventTypes, type EditorialEvent } from "./editorial-history";
 export const statuses = [
   "Borrador",
   "Revisado",
@@ -20,6 +21,7 @@ export const wordpressStatuses = ["Pendiente", "Borrador", "Preparado", "Publica
 export type WordPress = { status: (typeof wordpressStatuses)[number]; url: string };
 export const emptyWordPress: WordPress = { status: "Pendiente", url: "" };
 export type Article = {
+  history?: EditorialEvent[];
   wordpress?: WordPress;
   collection?: string;
   editorialOrder?: string;
@@ -117,11 +119,31 @@ export function validate(input: unknown): Article[] {
       if (raw[k] !== undefined && typeof raw[k] !== "string") throw Error(`Campo inválido: ${k}.`);
     }
     if (raw.destination && !safeUrl(raw.destination)) throw Error("Destino inválido.");
+    if (raw.history !== undefined) {
+      if (!Array.isArray(raw.history) || raw.history.length > 10000)
+        throw Error("Historial inválido.");
+      const eventIds = new Set<string>();
+      for (const event of raw.history) {
+        if (!event || typeof event !== "object" ||
+            typeof event.id !== "string" ||
+            !/^[a-zA-Z0-9._-]{1,100}$/.test(event.id) ||
+            eventIds.has(event.id) ||
+            !editorialEventTypes.includes(event.type) ||
+            typeof event.at !== "string" ||
+            !/^\d{4}-\d{2}-\d{2}T/.test(event.at) ||
+            !Number.isFinite(Date.parse(event.at)) ||
+            typeof event.detail !== "string" ||
+            event.detail.length > 2000)
+          throw Error("Evento editorial inválido.");
+        eventIds.add(event.id);
+      }
+    }
     return Object.fromEntries([
       ...fields.filter((k) => k !== "social").map((k) => [k, raw[k]]),
       ["social", social],
       ...commandFields.filter(k => raw[k] !== undefined).map(k => [k, raw[k]]),
       ...(raw.wordpress === undefined ? [] : [["wordpress", { ...raw.wordpress }]]),
+      ...(raw.history === undefined ? [] : [["history", raw.history.map((e: EditorialEvent) => ({ ...e }))]]),
     ]) as Article;
   });
 }
